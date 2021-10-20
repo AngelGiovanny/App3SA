@@ -12,6 +12,7 @@ namespace App3SA
     {
         public MainPage()
         {
+            //Constructor de prueba
             InitializeComponent();
         }
 
