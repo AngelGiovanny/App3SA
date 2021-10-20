@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3SA.Page1">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Pagina Dos!!!"/>
+
+            <Label x:Name="lblUsuario"/>
+            <Label x:Name="lblPassword"/>
+            <Entry x:Name="txtUsuario" IsReadOnly="True"/>
+            <Entry x:Name="txtClave" IsReadOnly="True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
